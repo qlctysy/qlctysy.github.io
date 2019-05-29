@@ -5,19 +5,31 @@
   
   <title>Excel数据比对与补充 | 青麓草堂檐上燕</title>
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-  <meta name="description" content="毕业答辩阶段，学院事务多且杂。老师身为副院长，却总要为这些琐事操心。刚好答辩结束之后，我还没有很明确的事儿要干。何况平日老师对我不薄，让我帮下忙，自不必多言。
-原本以为学工的事情都很简单，实际处理起来，一方面很多可以利用技术处理的用笨方法做了；另一方面，有时候技术处理之后，所得的结果却显然错误。从中既可以看出，我的办公能力并没有想象那么好。更难堪的是，我往往想到基本思路之后闷头做，没有事先考虑背后">
+  <meta name="description" content="有些杂事帮人忙，本来以为简单。实际处理起来，要么用笨方法做了，要么用“聪明办法”，结果却显然错误。从中既可以看出，我的办公能力并没有想象那么好。更难堪的是，我往往想到基本思路之后闷头做，没有事先考虑背后的意义和预期结果。
+具体说来，要做这么几件事。
+（1） 毕业名册与提交毕业申请的名单比对
+
+比较好的解决办法：利用条件格式，高亮出唯一值。
+函数的方法，=IF(COUNTIF(B:B,A1)&amp;gt;">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Excel数据比对与补充">
 <meta property="og:url" content="qlctysy.github.io/2019/05/29/excel数据比对与补充/index.html">
 <meta property="og:site_name" content="青麓草堂檐上燕">
-<meta property="og:description" content="毕业答辩阶段，学院事务多且杂。老师身为副院长，却总要为这些琐事操心。刚好答辩结束之后，我还没有很明确的事儿要干。何况平日老师对我不薄，让我帮下忙，自不必多言。
-原本以为学工的事情都很简单，实际处理起来，一方面很多可以利用技术处理的用笨方法做了；另一方面，有时候技术处理之后，所得的结果却显然错误。从中既可以看出，我的办公能力并没有想象那么好。更难堪的是，我往往想到基本思路之后闷头做，没有事先考虑背后">
-<meta property="og:updated_time" content="2019-05-29T13:51:40.473Z">
+<meta property="og:description" content="有些杂事帮人忙，本来以为简单。实际处理起来，要么用笨方法做了，要么用“聪明办法”，结果却显然错误。从中既可以看出，我的办公能力并没有想象那么好。更难堪的是，我往往想到基本思路之后闷头做，没有事先考虑背后的意义和预期结果。
+具体说来，要做这么几件事。
+（1） 毕业名册与提交毕业申请的名单比对
+
+比较好的解决办法：利用条件格式，高亮出唯一值。
+函数的方法，=IF(COUNTIF(B:B,A1)&amp;gt;">
+<meta property="og:updated_time" content="2019-05-29T13:56:54.704Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="Excel数据比对与补充">
-<meta name="twitter:description" content="毕业答辩阶段，学院事务多且杂。老师身为副院长，却总要为这些琐事操心。刚好答辩结束之后，我还没有很明确的事儿要干。何况平日老师对我不薄，让我帮下忙，自不必多言。
-原本以为学工的事情都很简单，实际处理起来，一方面很多可以利用技术处理的用笨方法做了；另一方面，有时候技术处理之后，所得的结果却显然错误。从中既可以看出，我的办公能力并没有想象那么好。更难堪的是，我往往想到基本思路之后闷头做，没有事先考虑背后">
+<meta name="twitter:description" content="有些杂事帮人忙，本来以为简单。实际处理起来，要么用笨方法做了，要么用“聪明办法”，结果却显然错误。从中既可以看出，我的办公能力并没有想象那么好。更难堪的是，我往往想到基本思路之后闷头做，没有事先考虑背后的意义和预期结果。
+具体说来，要做这么几件事。
+（1） 毕业名册与提交毕业申请的名单比对
+
+比较好的解决办法：利用条件格式，高亮出唯一值。
+函数的方法，=IF(COUNTIF(B:B,A1)&amp;gt;">
   
     <link rel="alternate" href="/atom.xml" title="青麓草堂檐上燕" type="application/atom+xml">
   
@@ -61,7 +73,7 @@
         
           <a id="nav-rss-link" class="nav-icon" href="/atom.xml" title="RSS Feed"></a>
         
-        <a id="nav-search-btn" class="nav-icon" title="Zoeken"></a>
+        <a id="nav-search-btn" class="nav-icon" title="Search"></a>
       </nav>
       <div id="search-form-wrap">
         <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" results="0" class="search-form-input" placeholder="Search"><button type="submit" class="search-form-submit">&#xF002;</button><input type="hidden" name="sitesearch" value="qlctysy.github.io"></form>
@@ -92,12 +104,9 @@
     
     <div class="article-entry" itemprop="articleBody">
       
-        <p>毕业答辩阶段，学院事务多且杂。老师身为副院长，却总要为这些琐事操心。刚好答辩结束之后，我还没有很明确的事儿要干。何况平日老师对我不薄，让我帮下忙，自不必多言。</p>
-<p>原本以为学工的事情都很简单，实际处理起来，一方面很多可以利用技术处理的用笨方法做了；另一方面，有时候技术处理之后，所得的结果却显然错误。从中既可以看出，我的办公能力并没有想象那么好。更难堪的是，我往往想到基本思路之后闷头做，没有事先考虑背后的意义和预期结果。</p>
+        <p>有些杂事帮人忙，本来以为简单。实际处理起来，要么用笨方法做了，要么用“聪明办法”，结果却显然错误。从中既可以看出，我的办公能力并没有想象那么好。更难堪的是，我往往想到基本思路之后闷头做，没有事先考虑背后的意义和预期结果。</p>
 <p>具体说来，要做这么几件事。</p>
-<ol>
-<li>毕业名册与提交毕业申请的名单比对</li>
-</ol>
+<p>（1） 毕业名册与提交毕业申请的名单比对</p>
 <ul>
 <li>比较好的解决办法：利用条件格式，高亮出唯一值。</li>
 <li>函数的方法，=IF(COUNTIF(B:B,A1)&gt;0,”B列有”,”B列没有”)。利用函数本来也没有问题，但实际处理时出现奇怪的错误，明明互相匹配的数据，却显示没有。此时需要：<ul>
@@ -106,11 +115,8 @@
 </ul>
 </li>
 </ul>
-<ol>
-<li>论文盲审及答辩存在问题的名单建立与信息补全</li>
-</ol>
-<p>首先答辩学生分为许多组，每组有多名老师投票。起先以为要记录所有学生与导师的对应分数关系，从中对应出优良中差。后来才知道，应该从另一个表单中找出答辩存在问题的学生信息，补充答辩分数、导师信息、论文题目和盲审结果。</p>
-<p>这个工作花了较多时间，两个原因：</p>
+<p>（2） 论文盲审及答辩存在问题的名单建立与信息补全</p>
+<p>首先答辩学生分为许多组，每组有多名老师投票。起先以为要记录所有学生与导师的对应分数关系，从中对应出优良中差。后来才知道，应该从另一个表单中找出答辩存在问题的学生信息，补充答辩分数、导师信息、论文题目和盲审结果。花了较多时间，两个原因：</p>
 <ul>
 <li>没有从指派的学工老师那里搞清楚答辩存在问题的学生名单信息，导致两百多个学生一一对应，费事费力还弄得头昏脑胀。</li>
 <li>数据分散在多个格式不规范的工作簿中，难以通过Vlookup等方式处理。</li>
@@ -120,9 +126,7 @@
 <li>明确问题，搞清楚需要处理的学生名单</li>
 <li>将补充信息的表单汇总在一个表单中，便于Vlookup。</li>
 </ul>
-<ol>
-<li>参与答辩的导师酬劳</li>
-</ol>
+<p>（3）参与答辩的导师酬劳</p>
 <p>以人数计，秘书与答辩导师单位人数对应的金额不同。</p>
 <ul>
 <li>需要用到数据透视表，其中人数和金额分别作为两个求和项。</li>
@@ -133,7 +137,7 @@
       
     </div>
     <footer class="article-footer">
-      <a data-url="qlctysy.github.io/2019/05/29/excel数据比对与补充/" data-id="cjw9agdiw00012wuvkgcb0zhs" class="article-share-link">Delen</a>
+      <a data-url="qlctysy.github.io/2019/05/29/excel数据比对与补充/" data-id="cjw9an7bv000190uvjgcui1l9" class="article-share-link">Share</a>
       
       
   <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Excel/">Excel</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/数据对比/">数据对比</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/数据补充/">数据补充</a></li></ul>
@@ -146,7 +150,7 @@
   
   
     <a href="/2019/05/29/test/" id="article-nav-older" class="article-nav-link-wrap">
-      <strong class="article-nav-caption">Ouder</strong>
+      <strong class="article-nav-caption">Older</strong>
       <div class="article-nav-title">开博第一篇</div>
     </a>
   
@@ -164,7 +168,7 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Labels</h3>
+    <h3 class="widget-title">Tags</h3>
     <div class="widget">
       <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Excel/">Excel</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/数据对比/">数据对比</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/数据补充/">数据补充</a></li></ul>
     </div>
@@ -183,7 +187,7 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Archieven</h3>
+    <h3 class="widget-title">Archives</h3>
     <div class="widget">
       <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/05/">May 2019</a></li></ul>
     </div>
@@ -193,7 +197,7 @@
   
     
   <div class="widget-wrap">
-    <h3 class="widget-title">Recente berichten</h3>
+    <h3 class="widget-title">Recent Posts</h3>
     <div class="widget">
       <ul>
         
